@@ -1,0 +1,118 @@
+.quote{
+  width: 80%;
+  margin:auto;
+}
+
+.quote-paragraph{
+  font-family: Garamond;
+  font-size: 4rem;
+  color: #4d4d4d;
+  font-style: oblique;
+  text-align: center;
+}
+
+/* .body-bg{
+  background-color: #ededed;
+} */
+
+.region-flag {
+  height: 1.5rem;
+  border: 0.125rem solid #dbdbdb;
+  border-radius: 0.3125rem;
+}
+
+.region-flag-wrapper {
+  vertical-align: middle;
+  height: 24px;
+  display: block;
+  box-sizing: content-box;
+  max-width: 60px;
+  margin: 0px;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+}
+
+/* team */
+
+.team h1{
+  text-align: center;
+  padding: 30px;
+}
+
+.items-list{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.member-item{
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+.member-item .profile-item-images, .profile-item-img{
+  height: 10rem;
+  border-radius: 100%;
+}
+
+.member-item, .full-name-region-wrap, .full-name-region{
+  display: flex;
+}
+
+.full-name-region{
+  align-items: center;
+}
+
+.member-item .profile-item-social > li{
+  display: inline-block;
+}
+
+.member-item .full-name{
+  margin: 0px;
+  padding: 0px 10px 0px 0px;
+  color: #fb3f3f;
+  font-weight: 500;
+  font-family: Helvetica,Arial,sans-serif;
+}
+
+.profile-item-text{
+  padding: 10px;
+}
+
+.about_me{
+  font-family: "Times New Roman","Times",serif;
+  margin: 0px;
+}
+
+.profile-item-social {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  padding: 5px 0px;
+}
+
+.profile-item-social a img{
+  height: 1.5625rem;
+}
+
+.profile-item-social a{
+  line-height: 0px;
+}
+
+@media only screen and (min-width:1300px) {
+  .member-item{
+    width: 33.33%;
+  }
+}
+
+@media only screen and (max-width: 979px){
+  .container{
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 479px){
+  .member-item{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

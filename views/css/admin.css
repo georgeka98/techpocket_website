@@ -1,0 +1,51 @@
+.users-list h2 {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.container{
+  padding-top: 0px;
+}
+
+.user-item{
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.user-item .basic-info{
+  display: flex;
+}
+
+.basic-info .full-name-cont{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.basic-info .full-name-cont p{
+  margin: 0px;
+  margin-top: 5px;
+}
+
+.basic-info .prof-img{
+  margin-right: 10px;
+}
+
+.user-prof{
+  height: 100px;
+}
+
+.region-flag{
+  border: 2px solid #dbdbdb;
+  border-radius: 0.3125rem;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.role-wrap{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
